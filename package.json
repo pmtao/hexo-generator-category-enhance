@@ -1,6 +1,6 @@
 {
   "name": "hexo-generator-category-enhance",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Category generator for Hexo.",
   "main": "index",
   "scripts": {
@@ -8,8 +8,8 @@
   "directories": {
     "lib": "./lib"
   },
-  "repository": "pmtao/hexo-generator-category",
-  "homepage": "https://github.com/pmtao/hexo-generator-category",
+  "repository": "pmtao/hexo-generator-category-enhance",
+  "homepage": "https://github.com/pmtao/hexo-generator-category-enhance",
   "keywords": [
     "hexo",
     "generator",
