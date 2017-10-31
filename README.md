@@ -1,6 +1,6 @@
 # hexo-generator-category-enhance
 
-[![NPM version](https://badge.fury.io/js/hexo-generator-category-enhance.svg)](http://badge.fury.io/js/hexo-generator-category-enhance)
+[![Build Status](https://travis-ci.org/pmtao/hexo-generator-category-enhance.svg?branch=master)](https://travis-ci.org/pmtao/hexo-generator-category-enhance)  [![NPM version](https://badge.fury.io/js/hexo-generator-category-enhance.svg)](http://badge.fury.io/js/hexo-generator-category-enhance)
 
 本仓库是 [Hexo] 程序的页面生成器插件，专用于辅助生成 Category 分类页面。
 通过本插件，并结合 hexo 相应的布局模版，可以实现生成所有分类的页面，以及分类的主页面，并可以定制每页显示的文章数。
@@ -42,6 +42,10 @@ category_generator:
 在主题的 `layout` 目录下创建一个名称为：`category-index.jade` 的模版文件（文件后缀请根据模版引擎更改）。
 
 If you set to generate category index page, you also need to creat a hexo templete file in theme directory  `layout` named: `category-index.jade` (please change file extension by other template engine). (false = don't generate)
+
+## Acknowledgements
+
+本站原始代码来源于以下仓库：[hexo-generator-category](https://github.com/hexojs/hexo-generator-category)，特此鸣谢。
 
 ## License
 

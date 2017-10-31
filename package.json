@@ -1,9 +1,11 @@
 {
   "name": "hexo-generator-category-enhance",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "Category generator for Hexo.",
   "main": "index",
   "scripts": {
+    "eslint": "eslint .",
+    "jscs": "jscs ."
   },
   "directories": {
     "lib": "./lib"
